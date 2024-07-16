@@ -1,0 +1,32 @@
+.products {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .product {
+    margin-bottom: 30px;
+  }
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px; /* Largura da seta */
+    height: 20px; /* Altura da seta */
+    background-color: black; /* Cor de fundo das setas */
+    color: white; /* Cor do ícone das setas */
+  }
+  
+  .carousel-control-prev-icon {
+    left: -20px; /* Posição à esquerda da seta anterior */
+  }
+  
+  .carousel-control-next-icon {
+    right: -20px; /* Posição à direita da seta próxima */
+  }
+  
+  @media (max-width: 768px) {
+    .products {
+      padding: 20px 10px;
+    }
+  }
