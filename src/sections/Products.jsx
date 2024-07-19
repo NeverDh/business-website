@@ -1,33 +1,44 @@
-import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/swiper-bundle.min.css';
-import 'swiper/swiper.min.css';
+import React, {useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Card } from 'react-bootstrap';
-import SwiperCore, { Navigation, Pagination } from 'swiper';
-import './Products.css';
+import { Container, Card } from 'react-bootstrap'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar, Virtual } from 'swiper/modules';
 
-SwiperCore.use([Navigation, Pagination]);
+import './Products.css';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+
+import gojoImg from './gojo.jpg';
 
 function Products() {
+
   const items = [
-    { title: 'Teleprompter com monitor de retorno', text: 'Para shows, apresentações, premiações, etc.', src: 'path/to/image1.jpg' },
-    { title: 'Teleprompter portátil', text: 'Ideal para eventos e produções móveis.', src: 'path/to/image2.jpg' },
-    { title: 'Monitores de alta definição', text: 'Para exibição de texto claro e visível.', src: 'path/to/image3.jpg' },
-    { title: 'Teleprompter com monitor de retorno', text: 'Para shows, apresentações, premiações, etc.', src: 'path/to/image4.jpg' },
-    { title: 'Teleprompter portátil', text: 'Ideal para eventos e produções móveis.', src: 'path/to/image5.jpg' },
-    { title: 'Monitores de alta definição', text: 'Para exibição de texto claro e visível.', src: 'path/to/image6.jpg' }
+    { title: 'Gojou Satoru', text: 'O feiticeiro mais forte da atualidade', src: gojoImg },
+    { title: 'Teleprompter portátil', text: 'Ideal para eventos e produções móveis.', src: gojoImg },
+    { title: 'Monitores de alta definição', text: 'Para exibição de texto claro e visível.', src: gojoImg },
+    { title: 'Teleprompter com monitor de retorno', text: 'Para shows, apresentações, premiações, etc.', src: gojoImg },
+    { title: 'Teleprompter portátil', text: 'Ideal para eventos e produções móveis.', src: gojoImg },
+    { title: 'Monitores de alta definição', text: 'Para exibição de texto claro e visível.', src: gojoImg },
+
+    
   ];
+  const [selectedIndexSwiper, setSelectedIndexSwiper] = useState(0);
+
 
   return (
     <section id="products">
       <Container className="py-5">
         <h1 className="text-center mb-5">Produtos</h1>
         <Swiper
-          spaceBetween={30}
+          modules={[Navigation, Pagination, Scrollbar, Virtual]}
           slidesPerView={3}
+          slidesPerGroup={1}
           navigation
+          virtual
           pagination={{ clickable: true }}
+          onSlideChange={(e) => setSelectedIndexSwiper(e.activeIndex)}
           breakpoints={{
             1024: { slidesPerView: 3 },
             768: { slidesPerView: 2 },
@@ -35,16 +46,18 @@ function Products() {
           }}
         >
           {items.map((item, idx) => (
-            <SwiperSlide key={idx} className="d-flex align-items-stretch">
-              <Card className="mb-4">
+            <SwiperSlide key={idx} virtualIndex={idx}  className={`d-flex align-items-stretch ${selectedIndexSwiper === idx ? 'selected' : '' }`}
+            onClick={(e) => setSelectedIndexSwiper(idx)}
+            >
+              <Card className={`mb-4 ${item.title === '' ? 'd-none': ''}`}>
                 <Card.Img variant="top" src={item.src} />
                 <Card.Body>
                   <Card.Title>{item.title}</Card.Title>
-                  <Card.Text>{item.text}</Card.Text>
+                  <Card.Text className={selectedIndexSwiper === idx ? '' : 'd-none'}>{item.text}</Card.Text>
                 </Card.Body>
               </Card>
             </SwiperSlide>
-          ))}
+          ))}   
         </Swiper>
       </Container>
     </section>
