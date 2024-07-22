@@ -29,7 +29,7 @@ function Products() {
 
   return (
     <section id="products">
-      <Container className="py-5">
+      <Container className="py-5 custom-products">
         <h1 className="text-center mb-5">Produtos</h1>
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, Virtual]}

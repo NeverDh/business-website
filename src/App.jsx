@@ -20,7 +20,7 @@ function App() {
       <Element name="products">
         <Products />
       </Element>
-      <Element name="WhoWeWare">
+      <Element name="whoWeWare">
         <WhoWeWare />
       </Element>
       <Element name="depositions">

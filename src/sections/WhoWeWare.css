@@ -3,6 +3,7 @@
   background-image: linear-gradient(to left, rgb(0, 51, 102), rgba(255, 255, 255, 0)), url('./gojo.jpg'); /* Atualize com o caminho correto para a imagem */
   background-size: cover;
   background-position: center;
+  height: 100vh;
 }
 
 .about h2 {
