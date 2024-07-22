@@ -20,6 +20,7 @@
   justify-content: space-between;
   align-items: center;
   border: none;
+  cursor: pointer;
 }
 
 .swiper-slide .card img {
@@ -52,7 +53,10 @@
 }
 
 .swiper-slide .card-text {
-  font-size: 1rem;
+  padding: 0 1%;
+  word-break: break-all;
+  text-align: left;
+  font-size: 0.8rem;
   max-height: 100px;
   min-height: 100px;
   color: #000000;
@@ -69,6 +73,7 @@
 
 #products .swiper-slide {
   transform: scale(0.8);
+  
 }
 
 .selected .card {

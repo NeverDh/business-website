@@ -15,12 +15,13 @@ function Depositions() {
               <Card.Body>
                 <Image src={gojoImg} className="mb-3" />
                 <Card.Title>Henrique Gabriel</Card.Title>
-                <Card.Text>
-                  Excelente suporte, execução perfeita, equipe atenciosa e prazos cumpridos. Altamente recomendável!
-                </Card.Text>
                 <div className="star-rating">
                   ⭐⭐⭐⭐⭐
                 </div>
+                <Card.Text>
+                  Excelente suporte, execução perfeita, equipe atenciosa e prazos cumpridos. Altamente recomendável!
+                </Card.Text>
+                
               </Card.Body>
             </Card>
           </Col>
@@ -29,12 +30,13 @@ function Depositions() {
               <Card.Body>
                 <Image src={gojoImg}  className="mb-3" />
                 <Card.Title>Carol Fernandes</Card.Title>
-                <Card.Text>
-                  Atendimento excelente, serviço de alta qualidade, comunicação clara e entrega dentro do prazo.
-                </Card.Text>
                 <div className="star-rating">
                   ⭐⭐⭐⭐⭐
                 </div>
+                <Card.Text>
+                  Atendimento excelente, serviço de alta qualidade, comunicação clara e entrega dentro do prazo.
+                </Card.Text>
+                
               </Card.Body>
             </Card>
           </Col>
@@ -43,12 +45,13 @@ function Depositions() {
               <Card.Body>
                 <Image src={gojoImg} className="mb-3" />
                 <Card.Title>Marcelo Oliveira</Card.Title>
-                <Card.Text>
-                  Serviço excepcional, equipe eficiente, comunicação clara e entrega rápida. Muito satisfeito!
-                </Card.Text>
                 <div className="star-rating">
                   ⭐⭐⭐⭐⭐
                 </div>
+                <Card.Text>
+                  Serviço excepcional, equipe eficiente, comunicação clara e entrega rápida. Muito satisfeito!
+                </Card.Text>
+                
               </Card.Body>
             </Card>
           </Col>

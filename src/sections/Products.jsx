@@ -49,7 +49,7 @@ function Products() {
             <SwiperSlide key={idx} virtualIndex={idx}  className={`d-flex align-items-stretch ${selectedIndexSwiper === idx ? 'selected' : '' }`}
             onClick={(e) => setSelectedIndexSwiper(idx)}
             >
-              <Card className={`mb-4 ${item.title === '' ? 'd-none': ''}`}>
+              <Card className={`mb-4 ${item.title === '' ? 'd-none': ''} ` }>
                 <Card.Img variant="top" src={item.src} />
                 <Card.Body>
                   <Card.Title>{item.title}</Card.Title>

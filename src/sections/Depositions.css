@@ -1,11 +1,13 @@
 .testimonials {
   background-color: #f9f9f9;
+  border: none !important;
 
 }
 
 .testimonial {
   text-align: center;
   transform: scale(0.9);
+  border: none !important;
 }
 
 .testimonial img {
@@ -24,9 +26,45 @@
   border: 2px solid #007bff;
   box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
   transform: scale(1);
+  border-radius: 20px;
+  
+}
+
+.highlighted-testimonial .card-title{
+  background-color: rgba(8, 78, 110, 0.9)
+
 }
 
 
 .card-text{
   min-height: 10vh;
+}
+
+.card-title{
+  background-color: white;
+  width: 115%;
+  height: 60px;
+  position: relative;
+  top: -30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(8, 78, 110, 1);
+  z-index: 1;
+  color:rgba(8, 78, 110, 1);
+}
+
+.card-body img{
+  min-width: 110%;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.card-body{
+  border: 1px solid #084D6E;
+  border-radius: 20px;
+}
+
+.star-rating{
+  margin-top: -20px;
 }
