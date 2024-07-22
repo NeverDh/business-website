@@ -53,7 +53,7 @@ function Products() {
                 <Card.Img variant="top" src={item.src} />
                 <Card.Body>
                   <Card.Title>{item.title}</Card.Title>
-                  <Card.Text className={selectedIndexSwiper === idx ? '' : 'd-none'}>{item.text}</Card.Text>
+                  <Card.Text className={(selectedIndexSwiper === idx ? '' : 'd-none' /*&& items[idx + 1] === undefined ? '' : items[idx + 2] === undefined ? '' : 'd-none'*/) }>{item.text}</Card.Text>
                 </Card.Body>
               </Card>
             </SwiperSlide>

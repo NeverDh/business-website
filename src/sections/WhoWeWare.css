@@ -1,12 +1,124 @@
 .about {
-    padding: 50px 20px;
-    background-color: #f1f1f1;
-    text-align: center;
-  }
-  
-  @media (max-width: 768px) {
-    .about {
-      padding: 20px 10px;
-    }
-  }
-  
+  padding: 50px 0;
+  background-image: linear-gradient(to left, rgb(0, 51, 102), rgba(255, 255, 255, 0)), url('./gojo.jpg'); /* Atualize com o caminho correto para a imagem */
+  background-size: cover;
+  background-position: center;
+}
+
+.about h2 {
+  margin-bottom: 30px;
+  font-size: 2.5em;
+  background-color: #006c78;
+  width: fit-content;
+  color : white;
+  align-self: center;
+  justify-self: center;
+}
+
+.contact-info {
+  background-color: rgba(0, 63, 92, 0.9);
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  text-align: left;
+  width: 50%;
+}
+
+.contact-info h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  background-color: #006c78;
+  width: 56%;
+  text-wrap: nowrap;
+  color: #ffffff;
+}
+
+.contact-info p {
+  font-size: 1.1em;
+  margin: 10px 0;
+  color: #ffffff;
+}
+
+.contact-info .phone-number {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  color: #ffffff;
+}
+
+.contact-info .phone-number svg {
+  margin-right: 10px;
+}
+
+.contact-info .contact-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #006c78;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contact-info .contact-button:hover {
+  background-color: #004d56;
+}
+
+.card-header .btn-link {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #ffffff;
+}
+
+.card-header .btn-link:hover {
+  color: #0056b3;
+}
+
+.card-body {
+  font-size: 1em;
+}
+
+.accordion-button{
+  border: none !important;
+}
+
+.accordion{
+  background-color: rgba(255, 255, 255, 0) !important;
+  border: none !important;
+}
+
+.accordion-item{
+  background-color: rgba(255, 255, 255, 0) !important;
+  border: none !important;
+  color: white !important;
+}
+
+.accordion-header{
+  background-color: rgba(255, 255, 255, 0) !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: white !important;
+}
+
+.accordion-button{
+  background-color: rgba(255, 255, 255, 0) !important;
+  border: none !important;
+  outline-style: none;
+  box-shadow: none !important;
+  color: white !important;
+
+}
+
+.accordion-button::after{
+  border: none !important;
+  outline-style: none;
+  box-shadow: none !important;
+  color: white !important;
+  filter: invert();
+
+}
+
+.accordion-body{
+  color: white !important;
+}
