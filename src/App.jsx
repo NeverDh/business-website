@@ -1,6 +1,8 @@
 import React from 'react';
 import { Element } from 'react-scroll';
 import Home from './sections/Home';
+import WhoWeWare from './sections/WhoWeWare';
+import Depositions from './sections/Depositions';
 import Products from './sections/Products';
 import Services from './sections/Services';
 import Contact from './sections/Contact';
@@ -17,6 +19,12 @@ function App() {
       </Element>
       <Element name="products">
         <Products />
+      </Element>
+      <Element name="whoWeWare">
+        <WhoWeWare />
+      </Element>
+      <Element name="depositions">
+        <Depositions />
       </Element>
       <Element name="services">
         <Services />

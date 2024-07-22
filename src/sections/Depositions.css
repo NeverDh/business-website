@@ -1,0 +1,14 @@
+.testimonials {
+    padding: 50px 20px;
+  }
+  
+  .testimonial {
+    margin-bottom: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .testimonials {
+      padding: 20px 10px;
+    }
+  }
+  

@@ -1,0 +1,45 @@
+.custom-navbar {
+    border-bottom: 1px solid #ddd;
+    padding: 0 1%;
+  }
+  
+  .custom-brand {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #003366;
+  }
+  
+  .custom-brand .carioca {
+    font-family: 'Cursive', sans-serif;
+    font-size: 14px;
+    color: #003366;
+  }
+  
+  .custom-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .custom-nav-link {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #003366;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor:pointer;
+  }
+  
+  .separator {
+    color: #003366;
+    font-weight: bold;
+    margin: 0 5px;
+  }
+
+  #basic-navbar-nav{
+    width: 60%;
+    display: flex;
+    justify-content: end;
+  }
+  

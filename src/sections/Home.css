@@ -1,28 +1,68 @@
-.home {
-    padding: 50px 20px;
-  }
-  
+.hero {
+  background-image: linear-gradient(to right, rgb(0, 51, 102), rgba(255, 255, 255, 0)), url('./gojo.jpg'); /* Atualize com o caminho correto para a imagem */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 90vh;
+  display: flex;
+}
+
+.hero-content {
+  width: 100%;
+  color:white;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+
+}
+
+.hero h1 {
+  color:white;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  width: 60%;
+  text-align: left;
+}
+
+.hero p {
+  color:white;
+  font-size: 18px;
+  margin-bottom: 30px;
+  width: 30%;
+  text-align: left;
+}
+
+.hero .btn-outline-light {
+  border-color: #ffffff;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.hero .btn-outline-light:hover {
+  background-color: #ffffff;
+  color: #003366;
+}
+
+.btn-outline-light{
+  border-radius: 0;
+  height: 60px;
+}
+
+@media (max-width: 768px) {
   .hero {
-    text-align: center;
+    height: auto;
     padding: 50px 0;
   }
-  
-  .about {
-    padding: 50px 20px;
-    background-color: #f1f1f1;
-    text-align: center;
+
+  .hero h1 {
+    font-size: 32px;
   }
-  
-  .testimonials {
-    padding: 50px 20px;
+
+  .hero p {
+    font-size: 16px;
   }
-  
-  .testimonial {
-    margin-bottom: 30px;
-  }
-  
-  @media (max-width: 768px) {
-    .home, .hero, .about, .testimonials {
-      padding: 20px 10px;
-    }
-  }
+}
