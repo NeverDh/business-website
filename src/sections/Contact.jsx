@@ -32,7 +32,7 @@ function Contact() {
               <Button variant="primary" type="submit" className="submit-button">ENVIAR</Button>
             </Form>
           </Col>
-          <Col md={6} className="text-center">
+          <Col md={6} className="text-center custom-text-center">
             <img src={gojoImg} alt="Stage Setup" className="img-fluid" />
             <div className="info-box">
               <FaGlobe className="info-icon" />

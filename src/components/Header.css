@@ -1,45 +1,66 @@
 .custom-navbar {
-    border-bottom: 1px solid #ddd;
-    padding: 0 1%;
-  }
-  
-  .custom-brand {
-    font-family: 'Arial', sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    color: #003366;
-  }
-  
-  .custom-brand .carioca {
-    font-family: 'Cursive', sans-serif;
-    font-size: 14px;
-    color: #003366;
-  }
-  
+  border-bottom: 1px solid #ddd;
+  padding: 0 1%;
+}
+
+.custom-brand {
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #003366;
+}
+
+.custom-brand .carioca {
+  font-family: 'Cursive', sans-serif;
+  font-size: 14px;
+  color: #003366;
+}
+
+.custom-nav {
+  display: flex;
+  align-items: center;
+}
+
+.custom-nav-link {
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #003366;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.separator {
+  color: #003366;
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+#basic-navbar-nav {
+  width: 60%;
+  display: flex;
+  justify-content: end;
+}
+
+@media (max-width: 992px) {
   .custom-nav {
-    display: flex;
-    align-items: center;
-  }
-  
-  .custom-nav-link {
-    font-family: 'Arial', sans-serif;
-    font-size: 1rem;
-    font-weight: bold;
-    color: #003366;
-    margin-left: 10px;
-    margin-right: 10px;
-    cursor:pointer;
-  }
-  
-  .separator {
-    color: #003366;
-    font-weight: bold;
-    margin: 0 5px;
+    flex-direction: column;
+    width: 100%;
   }
 
-  #basic-navbar-nav{
-    width: 60%;
-    display: flex;
-    justify-content: end;
+  .custom-nav-link {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px 0;
   }
-  
+
+  .separator {
+    display: none;
+  }
+
+  #basic-navbar-nav {
+    width: 100%;
+    justify-content: center;
+  }
+}

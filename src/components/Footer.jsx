@@ -1,24 +1,34 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 import './Footer.css';
 
 function Footer() {
   return (
-    <footer className="bg-light text-center text-lg-start">
+    <footer className="text-white text-center text-lg-start">
       <Container className="p-3">
         <Row>
-          <Col lg={6} className="mb-4 mb-lg-0">
-            <h5 className="text-uppercase">Sua Empresa</h5>
-            <p>© 2024 Sua Empresa. Todos os direitos reservados.</p>
+          <Col md={4} className="mb-4 mb-md-0">
+            <h5 className="text-uppercase">Sobre</h5>
           </Col>
-          <Col lg={6}>
+          <Col md={4} className="mb-4 mb-md-0">
+            <h5 className="text-uppercase">Nossas Redes</h5>
+            <div className="social-icons">
+              <a href="https://www.facebook.com" className="social-icon">
+                <FaFacebookF />
+              </a>
+              <a href="https://www.instagram.com" className="social-icon">
+                <FaInstagram />
+              </a>
+              <a href="https://www.twitter.com" className="social-icon">
+                <FaTwitter />
+              </a>
+            </div>
+          </Col>
+          <Col md={4}>
             <h5 className="text-uppercase">Links</h5>
-            <ul className="list-unstyled mb-0">
-              <li><a href="#home" className="text-dark">Página Inicial</a></li>
-              <li><a href="#products" className="text-dark">Produtos</a></li>
-              <li><a href="#services" className="text-dark">Serviços</a></li>
-              <li><a href="#contact" className="text-dark">Contato</a></li>
-            </ul>
+            <a href="#terms" className="text-white me-2">Termos e Condições</a>
+            <a href="#privacy" className="text-white">Política de Privacidade</a>
           </Col>
         </Row>
       </Container>
