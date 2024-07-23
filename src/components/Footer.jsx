@@ -5,7 +5,7 @@ import './Footer.css';
 function Footer() {
   return (
     <footer className="bg-light text-center text-lg-start">
-      <Container className="p-4">
+      <Container className="p-3">
         <Row>
           <Col lg={6} className="mb-4 mb-lg-0">
             <h5 className="text-uppercase">Sua Empresa</h5>

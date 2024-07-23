@@ -1,10 +1,32 @@
-.services {
-    padding: 50px 20px;
-    text-align: center;
-  }
-  
-  @media (max-width: 768px) {
-    .services {
-      padding: 20px 10px;
-    }
-  }
+#services {
+  background-color: #00375F; /* Matching the background color */
+  color: #fff; /* White text color */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#services h1{
+  color: #fff;
+  text-align: left;
+  font-size: 4rem;
+}
+
+.service-box {
+  padding: 20px;
+  margin: 20px 0;
+  color: #fff
+}
+
+.service-box p{
+  padding: 20px;
+  margin: 20px 0;
+  color: #fff
+}
+
+.service-icon {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #fff
+}
