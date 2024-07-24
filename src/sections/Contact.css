@@ -1,7 +1,6 @@
 #contact {
   background-color: #fff;
   color: #00375F;
-
 }
 
 .contact-form::before {
@@ -27,6 +26,7 @@
   flex-direction: column;
   position: relative; /* Adicione esta linha */
   z-index: 1;
+  margin-top: 20px;
 }
 
 .contact-form .form-label {
@@ -95,3 +95,4 @@ textarea {
   flex-direction: column;
   align-items: center;
 }
+

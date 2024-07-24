@@ -13,6 +13,7 @@
   display: flex;
   justify-content: center;
   min-height: 500px !important;
+  max-width: 500px;
 }
 
 
@@ -47,17 +48,21 @@
 }
 
 .swiper-slide .card-title {
-  background-color: #084D6E;
+  background-color: #ffffff;
   font-size: 1.2rem;
   font-weight: bold;
-  color: white;
+  color: rgb(0, 0, 0);
   max-height: 80px;
   min-height: 80px;
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -15%;
+  margin-top: -5%;
+}
+
+.card-title {
+  width: 100%;
 }
 
 .swiper-slide .card-text {
@@ -71,7 +76,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -5%;
+  margin-top: -12%;
   position: relative;
   right: -10%;
   border: 1px solid #084D6E ;
@@ -87,8 +92,13 @@
 .selected .card {
   transform: scale(1.2); /* Aumenta o tamanho do cartão */
   transition: transform 0.3s ease-in-out; /* Transição suave */
-  border: 1px solid #084D6E ;
   
+  
+}
+
+.selected .card-title{
+  background-color: #084D6E;
+  color: white;
 }
 
 

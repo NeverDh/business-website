@@ -2,6 +2,8 @@ import React from 'react';
 import { Container, Button } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 import './Home.css';
+import ArrowComponent from '../components/ArrowComponent';
+
 
 function Home() {
   return (
@@ -12,6 +14,7 @@ function Home() {
         <Link to="products" smooth={true} duration={500}>
           <Button variant="outline-light" size="lg">veja mais opções da nossa empresa</Button>
         </Link>
+        <ArrowComponent />
       </Container>
     </section>
   );

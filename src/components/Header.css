@@ -23,7 +23,7 @@
 
 .custom-nav-link {
   font-family: 'Arial', sans-serif;
-  font-size: 1rem;
+  font-size: 0.7rem;
   font-weight: bold;
   color: #003366;
   margin-left: 10px;
@@ -34,7 +34,7 @@
 .separator {
   color: #003366;
   font-weight: bold;
-  margin: 0 5px;
+  margin: 0 10px;
 }
 
 #basic-navbar-nav {
