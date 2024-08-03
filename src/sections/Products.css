@@ -55,10 +55,12 @@
   max-height: 80px;
   min-height: 80px;
   border-radius: 10px;
+  width: 100% !important;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: -5%;
+  left: 0;
 }
 
 .card-title {

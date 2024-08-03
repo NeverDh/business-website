@@ -15,6 +15,9 @@
   border: 1px solid #00375F;
 }
 
+#contact h1 {
+  font-size: 2rem;
+}
 
 .contact-form {
   background-color: #00375F;

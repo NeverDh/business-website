@@ -1,5 +1,7 @@
 #services {
-  background-color: #00375F; /* Matching the background color */
+  background-image: url('./services.png');
+  background-size: cover;
+  background-position: center;
   color: #fff; /* White text color */
   height: 100vh;
   display: flex;
@@ -16,13 +18,14 @@
 .service-box {
   padding: 20px;
   margin: 20px 0;
-  color: #fff
+  color: #fff;
+  text-align: left;
 }
 
 .service-box p{
-  padding: 20px;
   margin: 20px 0;
-  color: #fff
+  color: #fff;
+  text-align: left;
 }
 
 .service-icon {

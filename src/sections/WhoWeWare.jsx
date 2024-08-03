@@ -20,7 +20,7 @@ function WhoWeWare() {
             </div>
           </Col>
           <Col md={6} className='d-flex flex-column'>
-            <h2 className="text-center">Quem somos?</h2>
+            <h2 className="text-right">Quem somos?</h2>
             <Accordion defaultActiveKey="0">
               <Accordion.Item eventKey="0">
                 <Accordion.Header className='w-100'>Nossa Equipe</Accordion.Header>

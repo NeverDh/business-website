@@ -1,6 +1,6 @@
 .about {
   padding: 50px 0;
-  background-image: linear-gradient(to left, rgb(0, 51, 102), rgba(255, 255, 255, 0)), url('./gojo.jpg'); /* Atualize com o caminho correto para a imagem */
+  background-image: url('./woWeWare.png'); /* Atualize com o caminho correto para a imagem */
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -90,16 +90,22 @@
 .accordion{
   background-color: rgba(255, 255, 255, 0) !important;
   border: none !important;
+  display: flex !important;
+  flex-direction: column !important;
 }
 
 .accordion-item{
   background-color: rgba(255, 255, 255, 0) !important;
+  display: flex !important;
+  flex-direction: column !important;
   border: none !important;
   color: white !important;
 }
 
 .accordion-header{
   background-color: rgba(255, 255, 255, 0) !important;
+  display: flex !important;
+  flex-direction: row !important;
   border: none !important;
   box-shadow: none !important;
   color: white !important;

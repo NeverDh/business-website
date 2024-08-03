@@ -1,0 +1,20 @@
+.logo-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin: 2rem 0;
+  }
+  
+  .logo-item {
+    background-color: #004060;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .logo-image {
+    width: 100px;
+    height: auto;
+  }
+  

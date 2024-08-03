@@ -1,0 +1,38 @@
+.event-section {
+    background-color: #004060;
+    color: white;
+    padding: 3rem;
+  }
+  
+  .event-title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .event-description {
+    margin-top: 1rem;
+  }
+  
+  .event-image {
+    width: 100%;
+    height: auto;
+    border: 10px solid #004060; /* Ajusta a borda da imagem */
+  }
+  
+  .event-card {
+    background-color: #0e7c7b;
+    border: none;
+    padding: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .event-card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .event-card li {
+    color: white;
+    margin-bottom: 0.5rem;
+  }
+  

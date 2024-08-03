@@ -52,19 +52,19 @@ function Contact() {
             <Form onSubmit={handleSubmit} className="contact-form">
               <Form.Group controlId="formName">
                 <Form.Label>NOME</Form.Label>
-                <Form.Control type="text" name='name' placeholder="Digite seu nome" value={formData.name} onChange={handleChange} required/>
+                <Form.Control type="text" name='name'value={formData.name} onChange={handleChange} required/>
               </Form.Group>
               <Form.Group controlId="formEmail">
                 <Form.Label>E-MAIL</Form.Label>
-                <Form.Control type="email" name='email' placeholder="Digite seu e-mail" value={formData.email} onChange={handleChange} required/>
+                <Form.Control type="email" name='email'  value={formData.email} onChange={handleChange} required/>
               </Form.Group>
               <Form.Group controlId="formPhone">
                 <Form.Label>NÚMERO</Form.Label>
-                <Form.Control type="tel" name='phone' placeholder="Digite seu número" value={formData.phone} onChange={handleChange} required/>
+                <Form.Control type="tel" name='phone' value={formData.phone} onChange={handleChange} required/>
               </Form.Group>
               <Form.Group controlId="formDescription">
                 <Form.Label>DESCRIÇÃO</Form.Label>
-                <Form.Control as="textarea" name='text' rows={2} placeholder="Digite a descrição" value={formData.text} onChange={handleChange} required/>
+                <Form.Control as="textarea" name='text' rows={2}  value={formData.text} onChange={handleChange} required/>
               </Form.Group>
               <Button variant="primary" type="submit" className="submit-button">ENVIAR</Button>
             </Form>

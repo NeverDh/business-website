@@ -5,6 +5,8 @@ import WhoWeWare from './sections/WhoWeWare';
 import Depositions from './sections/Depositions';
 import Products from './sections/Products';
 import Services from './sections/Services';
+import Events from './sections/Events';
+import Marks from './sections/Marks';
 import Contact from './sections/Contact';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -28,6 +30,12 @@ function App() {
       </Element>
       <Element name="services">
         <Services />
+      </Element>
+      <Element name="events">
+        <Events />
+      </Element>
+      <Element name="marks">
+        <Marks />
       </Element>
       <Element name="contact">
         <Contact />
