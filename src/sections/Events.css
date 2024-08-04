@@ -2,37 +2,117 @@
     background-color: #004060;
     color: white;
     padding: 3rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
   }
   
   .event-title {
     font-size: 2rem;
     font-weight: bold;
+    color:white;
+    text-align: left;
   }
   
   .event-description {
     margin-top: 1rem;
+    color:white;
+    text-align: left;
   }
   
   .event-image {
-    width: 100%;
-    height: auto;
+    width: 90%;
+    height: 60%;
     border: 10px solid #004060; /* Ajusta a borda da imagem */
+    justify-self: flex-start;
+    position: relative;
+    left: -5%;
+    
   }
   
   .event-card {
     background-color: #0e7c7b;
-    border: none;
-    padding: 1.5rem;
-    margin-top: 1rem;
+    border: none !important;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start !important;
+    width: 90%;
+    height: 30%;
+    position: relative;
+    top: -5%;
+    left: 10%;
+    z-index: 1;
+    align-items: center !important;;
   }
   
   .event-card ul {
-    list-style-type: none;
+    list-style-type: disc;
     padding: 0;
+    text-align: left;
+    margin-left: 20px;
+    
   }
   
+  .subitem-list{
+    list-style-type: none !important;
+    padding: 0;
+    text-align: right;
+    margin-left: 10px !important;
+    width: auto !important;
+  }
+  
+
   .event-card li {
     color: white;
     margin-bottom: 0.5rem;
+    text-align: left;
+    font-size: 1rem;
+
   }
   
+  .custom-event{
+  
+    background: url('./GojoD.png') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important; 
+  }
+  
+
+  .first-column-events{
+    background-color: #004060;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .first-custom-column{
+    display: flex;
+  }
+
+  .fernando-filho-da-puta{
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    padding: 20px;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .custom-list{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+  }
