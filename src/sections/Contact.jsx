@@ -2,6 +2,7 @@
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { FaGlobe, FaClipboardList } from 'react-icons/fa';
 import {useState} from 'react'
+import { toast } from 'react-toastify';
 
 import './Contact.css';
 
@@ -36,10 +37,11 @@ function Contact() {
     });
 
     if (response.ok) {
-      alert('E-mail enviado com sucesso!');
+      toast.success('E-mail enviado com sucesso!');
       setFormData({ name: '', email: '', message: '' }); // Limpa o formulário após o envio
     } else {
-      alert('Erro ao enviar e-mail.');
+      
+      toast.error('Erro ao enviar e-mail.');
     }
   };
   
