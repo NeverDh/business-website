@@ -2,33 +2,35 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import './Marks.css';
 
+import Gojo from './gojo.jpg'
+
 const Marks = () => {
   return (
     <Container>
       <div className="logo-grid">
         <div className="logo-item">
-          <img src="/logos/globo.png" alt="Globo" className="logo-image" />
+          <img src={Gojo} alt="Globo" className="logo-image" />
         </div>
         <div className="logo-item">
-          <img src="/logos/mtv.png" alt="MTV" className="logo-image" />
+          <img src={Gojo} alt="MTV" className="logo-image" />
         </div>
         <div className="logo-item">
-          <img src="/logos/cnt.png" alt="CNT" className="logo-image" />
+          <img src={Gojo} alt="CNT" className="logo-image" />
         </div>
         <div className="logo-item">
-          <img src="/logos/petrobras.png" alt="Petrobras" className="logo-image" />
+          <img src={Gojo} alt="Petrobras" className="logo-image" />
         </div>
-        <div className="logo-item">
-          <img src="/logos/band.png" alt="Band" className="logo-image" />
+        <div className="reverse-item">
+          <img src={Gojo} alt="Band" className="logo-image" />
         </div>
-        <div className="logo-item">
-          <img src="/logos/sbt.png" alt="SBT" className="logo-image" />
+        <div className="reverse-item">
+          <img src={Gojo} alt="SBT" className="logo-image" />
         </div>
-        <div className="logo-item">
-          <img src="/logos/redetv.png" alt="RedeTV" className="logo-image" />
+        <div className="reverse-item">
+          <img src={Gojo} alt="RedeTV" className="logo-image" />
         </div>
-        <div className="logo-item">
-          <img src="/logos/record.png" alt="Record" className="logo-image" />
+        <div className="reverse-item">
+          <img src={Gojo} alt="Record" className="logo-image" />
         </div>
       </div>
     </Container>

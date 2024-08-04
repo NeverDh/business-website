@@ -5,16 +5,29 @@
     justify-items: center;
     align-items: center;
     margin: 2rem 0;
+    height: 500px;
   }
   
-  .logo-item {
-    background-color: #004060;
+  .logo-item, .reverse-item{
     padding: 20px;
     border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo-item:nth-child(odd){
+    background-color: #004060;
+  }
+
+  .reverse-item:nth-child(even){
+    background-color: #004060;
   }
   
   .logo-image {
-    width: 100px;
+    width: 70%;
     height: auto;
   }
   

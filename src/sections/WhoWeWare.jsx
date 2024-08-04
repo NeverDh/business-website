@@ -16,7 +16,7 @@ function WhoWeWare() {
                 <BsTelephoneFill size={24} />
                 <p>(21) 3772-6657</p>
               </div>
-              <a href="https://api.whatsapp.com/send?phone=552137726657" className="contact-button">CONTATE-NOS</a>
+              <a href="https://api.whatsapp.com/send?phone=552137726657" target="_blank" variant="success"className="contact-button" rel="noreferrer">CONTATE-NOS</a>
             </div>
           </Col>
           <Col md={6} className='d-flex flex-column'>

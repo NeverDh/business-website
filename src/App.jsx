@@ -10,12 +10,14 @@ import Marks from './sections/Marks';
 import Contact from './sections/Contact';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import WhatsappButton from './components/WhatsappButton';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <WhatsappButton/>
       <Element name="home">
         <Home />
       </Element>

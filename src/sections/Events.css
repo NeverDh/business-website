@@ -38,7 +38,7 @@
     padding: 0.5rem;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start !important;
+    justify-content: center !important;
     width: 90%;
     height: 30%;
     position: relative;
@@ -47,6 +47,7 @@
     z-index: 1;
     align-items: center !important;;
   }
+  
   
   .event-card ul {
     list-style-type: disc;
@@ -100,8 +101,8 @@
   }
 
   .fernando-filho-da-puta{
-    border-top: 1px solid white;
-    border-left: 1px solid white;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
     padding: 20px;
     height: 50%;
     width: 100%;
@@ -115,4 +116,15 @@
     flex-direction: row;
     width: 80%;
     justify-content: space-between;
+  }
+
+  .line-stile{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    top: 20px;
+    left: 4%;
+    z-index: 2;
   }
