@@ -37,14 +37,14 @@
 @media (max-width: 992px) {
 
   #services {
-    height: 150vh;
+    height: auto;
   }
   .custom-row-services-responsive {
   display: flex !important;
   flex-direction: column !important;
   align-items: flex-start !important;
   justify-content: center !important;
-  height: 100% !important;
+  height: auto !important;
 }
 
   .sc-fQpRED, .col-md-1{
@@ -56,7 +56,7 @@
     max-height: 100% !important;
   }
   .service-box {
-    width: 100% !important;
+    width: auto !important;
   }
 }
 

@@ -135,7 +135,7 @@
   
     }
     .event-section {
-      height: 120vh;
+      height: auto;
     }
 
     .event-card {
@@ -160,7 +160,7 @@
       margin: 40px
     }
     .event-section{
-      height: 140vh;
+      height: auto;
     }
 
     .fernando-filho-da-puta{

@@ -134,7 +134,7 @@
 
 @media (max-width: 992px) {
   .contact-info {
-    width:70%;
+    width:auto;
   }
   
 
@@ -152,7 +152,7 @@
     background-image: url('./woWeWare.png'); /* Atualize com o caminho correto para a imagem */
     background-size: cover;
     background-position: center;
-    height: 120vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -168,7 +168,7 @@
     background-image: url('./woWeWare.png'); /* Atualize com o caminho correto para a imagem */
     background-size: cover;
     background-position: center;
-    height: 140vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
