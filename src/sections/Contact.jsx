@@ -48,8 +48,8 @@ function Contact() {
   return (
     <section id="contact">
       <Container className="">
-        <Row>
-          <Col md={6} className="text-center">
+        <Row className='row-custom-contact-responsive'>
+          <Col md={6} className="text-center ">
             <h1>Obtenha uma cotação de frete grátis</h1>
             <Form onSubmit={handleSubmit} className="contact-form">
               <Form.Group controlId="formName">

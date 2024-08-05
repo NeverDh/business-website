@@ -30,11 +30,9 @@ function Products() {
   return (
     <section id="products">
       <Container className="py-5 custom-products">
-        <h1 className="text-center mb-5">Produtos</h1>
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, Virtual]}
           slidesPerView={3}
-          slidesPerGroup={1}
           navigation
           virtual
           pagination={{ clickable: true }}
@@ -43,6 +41,8 @@ function Products() {
             1024: { slidesPerView: 3 },
             768: { slidesPerView: 2 },
             640: { slidesPerView: 1 },
+            480: { slidesPerView: 1 },
+            220: { slidesPerView: 1 },
           }}
         >
           {items.map((item, idx) => (

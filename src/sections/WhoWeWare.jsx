@@ -7,7 +7,7 @@ function WhoWeWare() {
   return (
     <section id="quem-somos" className="about py-5">
       <Container>
-        <Row>
+        <Row className='custom-row-whoweware-responsive'>
           <Col md={6} className="d-flex flex-column justify-content-end align-items-center ">
             <div className="contact-info">
               <h2>QUER SABER MAIS?</h2>

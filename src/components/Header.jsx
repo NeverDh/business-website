@@ -39,7 +39,6 @@ function Header() {
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                   <Nav className="justify-content-end flex-grow-1 pe-3 custom-nav">
-                    <Nav.Link as={Link} to="home" smooth={true} duration={500} className="custom-nav-link" onClick={() => document.querySelector('.navbar-toggler').click()}>PÁGINA INICIAL</Nav.Link>
                     <Nav.Link as={Link} to="products" smooth={true} duration={500} className="custom-nav-link" onClick={() => document.querySelector('.navbar-toggler').click()}>PRODUTOS</Nav.Link>
                     <Nav.Link as={Link} to="whoWeWare" smooth={true} duration={500} className="custom-nav-link" onClick={() => document.querySelector('.navbar-toggler').click()}>QUEM SOMOS</Nav.Link>
                     <Nav.Link as={Link} to="depositions" smooth={true} duration={500} className="custom-nav-link" onClick={() => document.querySelector('.navbar-toggler').click()}>DEPOIMENTOS</Nav.Link>
@@ -51,8 +50,6 @@ function Header() {
             </>
           ) : (
             <Nav className="justify-content-end flex-grow-1 pe-3 custom-nav">
-              <Nav.Link as={Link} to="home" smooth={true} duration={500} className="custom-nav-link">PÁGINA INICIAL</Nav.Link>
-              <span className="separator">|</span>
               <Nav.Link as={Link} to="products" smooth={true} duration={500} className="custom-nav-link">PRODUTOS</Nav.Link>
               <span className="separator">|</span>
               <Nav.Link as={Link} to="whoWeWare" smooth={true} duration={500} className="custom-nav-link">QUEM SOMOS</Nav.Link>

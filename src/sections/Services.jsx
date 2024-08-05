@@ -9,7 +9,7 @@ function Services() {
     <section id="services" >
       <Container className="py-5 text-center">
         <h1>Nosso processo de trabalho</h1>
-        <Row>
+        <Row className='custom-row-services-responsive'>
           <Col md={3}>
             <div className="service-box">
               <FaTv className="service-icon" />

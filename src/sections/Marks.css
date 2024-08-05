@@ -18,11 +18,11 @@
     align-items: center;
   }
 
-  .logo-item:nth-child(odd){
+  .logo-item:nth-child(even){
     background-color: #004060;
   }
 
-  .reverse-item:nth-child(even){
+  .reverse-item:nth-child(odd){
     background-color: #004060;
   }
   
@@ -31,3 +31,32 @@
     height: auto;
   }
   
+  @media (max-width: 768px) {
+    .logo-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      margin: 0;
+    }
+
+    .logo-item:nth-child(even){
+      background-color: initial;
+    }
+  
+    .reverse-item:nth-child(odd){
+      background-color: initial;
+    }
+    
+
+
+
+  .geral-item:nth-of-type(4n+1),
+  .geral-item:nth-of-type(4n+4) {
+    background-color: #004060;
+  }
+    .container-marks{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 110vh;
+    }
+  }

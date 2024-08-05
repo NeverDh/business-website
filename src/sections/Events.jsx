@@ -15,9 +15,6 @@ const Events = () => {
           <p className="event-description">
             Estamos no G20! Nossos equipamentos são essenciais para os discursos de líderes mundiais. Com nosso suporte, garantimos apresentações impecáveis em um evento de proporção global.
           </p>
-          <div className="line-stile">
-            <LineComponent></LineComponent>
-          </div>
         </div>
           <Card className="event-card">
             <div className="custom-list">

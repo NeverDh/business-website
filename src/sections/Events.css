@@ -128,3 +128,42 @@
     left: 4%;
     z-index: 2;
   }
+
+  @media (max-width: 768px) {
+    .first-custom-column {
+      flex-direction: column-reverse;
+  
+    }
+    .event-section {
+      height: 120vh;
+    }
+
+    .event-card {
+      height: 50%;
+      top: 0;
+      left: 0;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .event-card li {
+      color: white;
+      margin-bottom: 0.5rem;
+      text-align: left;
+      font-size: 0.7rem;
+  
+    }
+    .event-card {
+      height: 50%;
+      top: 0;
+      left: 0;
+      margin: 40px
+    }
+    .event-section{
+      height: 140vh;
+    }
+
+    .fernando-filho-da-puta{
+      margin: 40px;
+    }
+  }

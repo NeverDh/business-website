@@ -8,8 +8,8 @@ function Depositions() {
   return (
     <section id="depoimentos" className="testimonials py-5">
       <Container>
-        <h2 className="text-center mb-5">Depoimentos</h2>
-        <Row>
+        
+        <Row className='responsive-row-custom'>
           <Col md={4}>
             <Card className="mb-4 testimonial">
               <Card.Body>

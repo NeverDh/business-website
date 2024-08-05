@@ -6,12 +6,12 @@ import './Footer.css';
 function Footer() {
   return (
     <footer className="text-white text-center text-lg-start">
-      <Container className="p-3">
-        <Row>
-          <Col md={4} className="mb-4 mb-md-0">
+      <Container className="p-3 custom-container-footer-responsive">
+        <Row className='custom-row-footer-responsive'>
+          <Col md={4} className='custom-column-footer'>
             <h5 className="text-uppercase">Sobre</h5>
           </Col>
-          <Col md={4} className="mb-4 mb-md-0">
+          <Col md={4} className='custom-column-footer'>
             <h5 className="text-uppercase">Nossas Redes</h5>
             <div className="social-icons">
               <a href="https://www.facebook.com" className="social-icon">
@@ -25,7 +25,7 @@ function Footer() {
               </a>
             </div>
           </Col>
-          <Col md={4}>
+          <Col md={4} className='custom-column-footer'>
             <h5 className="text-uppercase">Links</h5>
             <a href="#terms" className="text-white me-2">Termos e Condições</a>
             <a href="#privacy" className="text-white">Política de Privacidade</a>

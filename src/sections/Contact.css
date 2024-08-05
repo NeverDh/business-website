@@ -99,3 +99,14 @@ textarea {
   align-items: center;
 }
 
+
+
+@media (max-width: 768px) {
+  .row-custom-contact-responsive{
+    flex-direction: column-reverse;
+  }
+
+  .text-center{
+    margin: 10px;
+  }
+}
