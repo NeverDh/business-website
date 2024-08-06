@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/business-website/static/css/main.6e5958d7.css",
+    "main.js": "/business-website/static/js/main.5c9ea0f2.js",
+    "static/media/GojoD.png": "/business-website/static/media/GojoD.dd5845807bd504bd5670.png",
+    "static/media/gojo.jpg": "/business-website/static/media/gojo.4c423ee0558ddbfb65c6.jpg",
+    "static/media/home.png": "/business-website/static/media/home.c22c13a92b50b4e22446.png",
+    "static/media/woWeWare.png": "/business-website/static/media/woWeWare.7d2370cd8cd1fee6c8f0.png",
+    "static/media/services.png": "/business-website/static/media/services.1bcfb9218adbebfe3832.png",
+    "index.html": "/business-website/index.html",
+    "main.6e5958d7.css.map": "/business-website/static/css/main.6e5958d7.css.map",
+    "main.5c9ea0f2.js.map": "/business-website/static/js/main.5c9ea0f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e5958d7.css",
+    "static/js/main.5c9ea0f2.js"
+  ]
+}
