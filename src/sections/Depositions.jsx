@@ -1,8 +1,10 @@
 import React from 'react';
 import { Container, Row, Col, Card, Image } from 'react-bootstrap';
 import './Depositions.css';
-import gojoImg from './gojo.jpg';
 
+import Um from '../images/Depositions/1.png';
+import Dois from '../images/Depositions/2.png';
+import Tres from '../images/Depositions/3.png';
 
 function Depositions() {
   return (
@@ -13,7 +15,7 @@ function Depositions() {
           <Col md={4}>
             <Card className="mb-4 testimonial">
               <Card.Body>
-                <Image src={gojoImg} className="mb-3" />
+                <Image src={Um} className="mb-3" />
                 <Card.Title>Henrique Gabriel</Card.Title>
                 <div className="star-rating">
                   ⭐⭐⭐⭐⭐
@@ -28,7 +30,7 @@ function Depositions() {
           <Col md={4} className="highlighted-testimonial">
             <Card className="mb-4 testimonial">
               <Card.Body>
-                <Image src={gojoImg}  className="mb-3" />
+                <Image src={Tres}  className="mb-3" />
                 <Card.Title>Carol Fernandes</Card.Title>
                 <div className="star-rating">
                   ⭐⭐⭐⭐⭐
@@ -43,7 +45,7 @@ function Depositions() {
           <Col md={4}>
             <Card className="mb-4 testimonial">
               <Card.Body>
-                <Image src={gojoImg} className="mb-3" />
+                <Image src={Dois} className="mb-3" />
                 <Card.Title>Marcelo Oliveira</Card.Title>
                 <div className="star-rating">
                   ⭐⭐⭐⭐⭐

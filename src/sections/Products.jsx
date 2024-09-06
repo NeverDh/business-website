@@ -10,17 +10,32 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-import gojoImg from './gojo.jpg';
+import Um from '../images/Products/1.png'
+import Dois from '../images/Products/2.png'
+import Tres from '../images/Products/3.png'
+import Quatro from '../images/Products/4.png'
+import Cinco from '../images/Products/5.png'
+import Seis from '../images/Products/6.png'
+import Sete from '../images/Products/7.png'
+import Nove from '../images/Products/9.png'
+import Dez from '../images/Products/10.png'
+import Onze from '../images/Products/11.png'
+import Doze from '../images/Products/12.png'
 
 function Products() {
 
   const items = [
-    { title: 'Gojou Satoru', text: 'O feiticeiro mais forte da atualidade', src: gojoImg },
-    { title: 'Teleprompter portátil', text: 'Ideal para eventos e produções móveis.', src: gojoImg },
-    { title: 'Monitores de alta definição', text: 'Para exibição de texto claro e visível.', src: gojoImg },
-    { title: 'Teleprompter com monitor de retorno', text: 'Para shows, apresentações, premiações, etc.', src: gojoImg },
-    { title: 'Teleprompter portátil', text: 'Ideal para eventos e produções móveis.', src: gojoImg },
-    { title: 'Monitores de alta definição', text: 'Para exibição de texto claro e visível.', src: gojoImg },
+    { title: 'Teleprompter para Câmera portátil', text: 'Esse modelo de teleprompter vai montado no tripé da câmera e a mesma vai montada na base do teleprompter possibilitando assim o movimento de PAN e TILT durante a gravação.', src: Um },
+    { title: 'Teleprompter de Ipad', text: 'Teleprompter iPad pode ser utilizado em gruas, Steadycam. Permite a sua utilização sem ponto de energia elétrica. Temos vários tamanhos de iPad.', src: Dois },
+    { title: 'Teleprompter de Show Doghouse', text: 'Eficiente para qualquer ocasião, segurança e tranquilidade para shows, apresentações, premiações podem ser utilizados como monitores de 15 a 75 polegadas. Cante suas músicas sem a necessidade de memorização.', src: Tres },
+    { title: 'Teleprompter para Câmera Portátil DSLR', text: 'Para shows, apresentações, premiações, etc.', src: Quatro },
+    { title: 'Teleprompter Tradicional com monitor de retorno', text: 'Teleprompter com monitor de retorno permite ao apresentar a ter a sua visão diretamente do set. Consegue visualizar os VTs e isso permite um backup de segurança.', src: Cinco },
+    { title: 'Teleprompter para Câmera Portátil', text: 'Versão Estúdio.', src: Seis },
+    { title: 'Teleprompter para Câmera Portátil', text: 'Lente Grande Angular.', src: Sete },
+    { title: 'Teleprompter para Grua e Gimbal', text: 'Para shows, apresentações, premiações, etc.', src: Nove },
+    { title: 'Teleprompter Abaixo da Lente', text: 'Para shows, apresentações, premiações, etc.', src: Dez },
+    { title: 'Teleprompter para Steadycam', text: 'Teleprompter iPad muito utilizado em gruas, Steadycam ou em locação sem ponto de energia elétrica', src: Onze },
+    { title: 'Teleprompter Executivo', text: 'Produto super moderno, permite visualização de até 7 metros com controle de ângulo e brilho, facilmente regulável para um ângulo mais preciso e brilho adequado. Super requisitado por políticos, igrejas, congressos, premiações e pessoas que falam em público.', src: Doze },
 
     
   ];

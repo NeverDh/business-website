@@ -3,7 +3,7 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 import './Events.css';
 import LineComponent from '../components/LineComponent';
 
-import Gojo from './gojo.jpg'
+import Um from '../images/Events/1.png'
 
 const Events = () => {
   return (
@@ -19,23 +19,23 @@ const Events = () => {
           <Card className="event-card">
             <div className="custom-list">
               <ul>
-                <li><strong>Ipad</strong></li>
-                  <ul className='subitem-list'><li>logarina</li></ul>
                 <li><strong>Teleprompter</strong></li>
-                  <ul className='subitem-list'><li>câmera portátil</li></ul>
+                  <ul className='subitem-list'><li>Com monitor de retorno</li></ul>
+                <li><strong>Teleprompter</strong></li>
+                  <ul className='subitem-list'><li>DSLR 10 polegadas</li></ul>
               </ul>
               <ul>
                 <li><strong>Ipad</strong></li>
-                  <ul className='subitem-list'><li>logarina</li></ul>
+                  <ul className='subitem-list'><li>Logarina</li></ul>
                 <li><strong>Teleprompter</strong></li>
-                <ul className='subitem-list'><li>câmera portátil</li></ul>
+                <ul className='subitem-list'><li>Câmera Portátil</li></ul>
               </ul>
             </div>
           </Card>
         </Col>
         
         <Col md={6} className='custom-event'>
-          <img src={Gojo} alt="G20 Event" className="event-image" />
+          <img src={Um} alt="G20 Event" className="event-image" />
         </Col>
         
       </Col>
